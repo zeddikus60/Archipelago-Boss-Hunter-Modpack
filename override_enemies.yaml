@@ -1139,13 +1139,13 @@ Armor Xemnas II:
     # source: old
   gimmick_source:
   - Final Xemnas
-  - Terra
   - Zexion
   blacklist_source:
   - Saix # Report of crash
   - Xaldin
   - Riku
   - Roxas
+  - Luxord
   blacklist_destination:
   - Pete OC II #Getting stuck in the wall can softlock depending on if Sora gets hit by a falling boulder
   - Pete TR #one-to-one consistency
@@ -1294,6 +1294,25 @@ Axel II:
   blacklist_destination:
   - Jafar
   - Cloud
+  - Grim Reaper I
+  - Thresholder
+  - Luxord
+  - Sark
+  - Prison Keeper
+  - Vexen
+  - Xemnas
+  - Armor Xemnas II
+  - Barbossa
+  - Cerberus
+  - Twilight Thorn
+  - Hayner
+  - Vivi
+  - Axel I
+  - Setzer
+  - Blizzard Lord 
+  - Volcano Lord
+  - Armor Xemnas I
+  - Scar
   blacklist_source:
   - Demyx
   - Demyx OC
@@ -1666,7 +1685,7 @@ Cerberus:
       # - program: 190
       #   msn: HE_COL_2_10
       #   room_size: 6.19
-      # msn_replace_allowed: false
+      msn_replace_allowed: true
       vars:
       - 1
       - 0
@@ -1710,7 +1729,7 @@ Cloud:
   - Hercules
   - Roxas
   - Sephiroth
-  - Xemnas (Data)
+  - Xemnas
   - Xaldin
   - The Experiment
   limiter: 0
@@ -2468,6 +2487,9 @@ Final Xemnas:
   - Seifer
   - Twilight Thorn
   - Final Xemnas
+  - Final Xemnas (Data)
+  - Final Xemnas (Clone)
+  - Final Xemnas (Clone) (Data)
   can_be_enemy: false
   tags:
   - solo
@@ -3047,6 +3069,7 @@ Hercules:
   - Tifa
   - Yuffie
   - Hercules
+  - Hydra
   blacklist_source:
   - Jafar
   - Storm Rider
@@ -3058,6 +3081,7 @@ Hercules:
   - Tifa
   - Yuffie
   - Lexaeus
+  - Hercules
   tags:
   - cant_invuln
   variations:
@@ -3241,7 +3265,7 @@ Hot Rod WI:
   obj_id: 1831
   size: 871428
   tags:
-  - largeF
+  - large
   type: enemy
   variations:
     Hot Rod WI:
@@ -3483,11 +3507,12 @@ Larxene:
   - no_roxas
   blacklist_destination:
   - Barbossa
+  - Grim Reaper II
   - Scar
   - Riku
   - Cerberus
   - Luxord 
-  - Armored Xemnas I
+  - Armor Xemnas I
   - Thresholder # Can not reappear after a teleport
   can_be_enemy: false #expensive
   enabled: true
@@ -3793,6 +3818,7 @@ Luxord:
   - Cloud
   - Pete OC II
   - Pete TR
+  - Armor Xemnas II
   tags:
   - organization
   - solo
@@ -4174,7 +4200,7 @@ Pete OC II:
     bossX: 0
     bossY: 0
     bossZ: -400
-  enabled: false
+  enabled: true
   enmp_index: 0x1A
   hp: 100
   level: 99
@@ -4258,8 +4284,14 @@ Pete TR:
   - Cloud
   - Grim Reaper II
   - Leon
+  - Tifa
+  - Yuffie
   blacklist_source:
   - Grim Reaper II
+  - Cloud
+  - Hercules
+  - Tifa
+  - Yuffie
   - Hydra
   - Leon
   - Terra
@@ -5734,6 +5766,7 @@ The Experiment:
     type: obj
   - name: B_NM110_R_ARM/b_nm.bdscript
     type: obj
+  msn_dest_as: "WI03_MS104"
   roomData:
     bossX: -810.4044189453125
     bossY: 4.720623016357422
@@ -5755,7 +5788,7 @@ The Experiment:
   - Pete OC II # takes too much time and memory?
   - Axel I # Proactive ban due to RC?
   - Leon
-  - Armored Xemnas II
+  - Armor Xemnas II
   - Scar
   - Cloud
   - Jafar
@@ -5824,6 +5857,7 @@ Tifa:
   - Storm Rider
   - Shadow Stalker
   - Hydra
+  - Grim Reaper II
   - Cloud
   - Leon
   - Tifa
@@ -6224,6 +6258,8 @@ Xemnas:
   - Twilight Thorn
   - Prison Keeper
   - Grim Reaper II
+  - Jafar
+  - Cloud
   can_be_enemy: false
   enabled: true
   enmp_index: 90 #  Final Xemnas has same ENMP index so it's problematic to scale Xemnas
