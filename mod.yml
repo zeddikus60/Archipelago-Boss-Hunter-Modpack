@@ -10,10 +10,10 @@ assets:
   method: copy
   source:
   - name: DrivesChanges.lua
-# - name: scripts/F266B00B GoA ROM.lua
-#  method: copy
-#  source:
-#  - name: F266B00B GoA ROM.lua
+- name: scripts/F266B00B GoA ROM.lua
+  method: copy
+  source:
+  - name: F266B00B GoA ROM.lua
 - name: scripts/4Str.lua
   method: copy
   source:
