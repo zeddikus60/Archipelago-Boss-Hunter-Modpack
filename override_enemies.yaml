@@ -1304,10 +1304,8 @@ Axel II:
   - Armor Xemnas II
   - Barbossa
   - Cerberus
-  - Twilight Thorn
   - Hayner
   - Vivi
-  - Axel I
   - Setzer
   - Blizzard Lord 
   - Volcano Lord
@@ -1342,6 +1340,7 @@ Axel II:
   - Xigbar
   - Sark
   forced_variations:
+    HE05: Axel II
     HE19: Axel II
     TT20: Axel II
   enabled: true
@@ -1995,7 +1994,7 @@ Final Xemnas (Data):
   - name: B_EX170_LAST_LV99/b_ex.bdscript
     type: obj
   variationof: Final Xemnas
-  msn_replace_allowed: false # this might break things
+  msn_replace_allowed: true # this might break things
   hp: 100
   level: 99
   limiter: 0
@@ -2503,7 +2502,7 @@ Final Xemnas:
   limiter: 0
   model: B_EX170_LAST
   msn: EH20_MS113
-  msn_replace_allowed: false 
+  msn_replace_allowed: true 
   msn_dest_as: WI03_MS104
   program: 74
   size: 6.29
