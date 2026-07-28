@@ -2456,12 +2456,9 @@ Final Xemnas:
   gimmick_source:
   - Zexion
   blacklist_source:
-  - Cerberus
   - Zexion
-  - Marluxia
   - Xigbar
   - Final Xemnas
-  - Sephiroth
   aimods: 
   - name: B_EX170_LAST/b_ex.bdscript
     type: obj
@@ -3913,7 +3910,6 @@ Marluxia:
   - Axel I
   - Twilight Thorn
   - Jafar
-  - Final Xemnas
   - Cloud
   - Xaldin
   enabled: true
@@ -5120,7 +5116,6 @@ Sephiroth:
   - Cloud
   - Riku
   - Jafar
-  - Final Xemnas
   variations:
     Sephiroth:
       vars:
